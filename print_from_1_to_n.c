@@ -1,6 +1,10 @@
 #include<stdio.h>
 void hello(int i)
 {
+    if(i == 11)
+    {
+        return;
+    }
     printf("%d\n",i);
     hello(i+1);
 }
